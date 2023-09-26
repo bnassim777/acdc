@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "hardrock";
+  src: url(../fonts/HARD_ROCK.ttf);
+}
+@font-face {
+  font-family: "thedark";
+  src: url(../fonts/TheDark.ttf);
+}
+@font-face {
+  font-family: "ROCKNROLL";
+  src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
+body {
+  background-image: url(/img/bg1.jpg);
+}
+
+nav {
+  color: red;
+}
+nav h1 {
+  font-family: hardrock;
+  color: white;
+  display: inline-block;
+}
+nav .icon {
+  color: red;
+  font-size: 3rem;
+}
+nav #navbarNav {
+  font-family: thedark;
+}
+nav #navbarNav ul li a {
+  color: red;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.container .icon {
+  color: red;
+  font-size: 3rem;
+}
+.container h2 {
+  font-family: rocknroll;
+  color: white;
+}
+.container img {
+  height: 16.5rem;
+}/*# sourceMappingURL=style.css.map */
