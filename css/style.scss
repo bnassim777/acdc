@@ -13,14 +13,19 @@
     src: url(../fonts/rocknroll_typo_crazy.ttf);
 }
 
-body{
-    background-image: url(/img/bg1.jpg);
+body {
+    background: repeating-linear-gradient(120deg,
+            black,
+            black 800px,
+            red 800px,
+            red 1600px);
 }
 
 
 
 nav {
     color: red;
+
     h1 {
         font-family: hardrock;
         color: white;
@@ -32,11 +37,12 @@ nav {
         font-size: 3rem;
     }
 
-    #navbarNav{
+    #navbarNav {
         font-family: thedark;
-        ul{
-            li{
-                a{
+
+        ul {
+            li {
+                a {
                     color: red;
                 }
             }
@@ -45,21 +51,44 @@ nav {
     }
 }
 
-.container{
+.container {
     margin-top: 2rem;
 
     .icon {
-        color: red;
+        color: black;
         font-size: 3rem;
     }
 
-    h2{
+    h2 {
         font-family: rocknroll;
         color: white;
 
     }
 
-    img{
-        height: 16.5rem;
+    .figure {
+        img {
+            height: 16.5rem;
+        }
+
     }
+
+    .thunder {
+        -webkit-text-stroke: 1px black;
+        color: red;
+    }
+
+    .card {
+
+        margin: 2rem;
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            font-family: rocknroll;
+        }
+
+    }
+
 }
